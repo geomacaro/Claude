@@ -30,6 +30,14 @@ export interface Prediction {
   sources?: { title: string; uri: string }[];
 }
 
+export interface LoggedBet {
+  fightId: string;
+  fighterName: string;
+  amount: number;
+  odds: string;
+  timestamp: number;
+}
+
 export enum AppState {
   LOADING = 'LOADING',
   IDLE = 'IDLE',
