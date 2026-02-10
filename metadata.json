@@ -1,0 +1,5 @@
+{
+  "name": "OctagonOracle AI",
+  "description": "A high-performance UFC prediction engine powered by Gemini 3 Pro with real-time search grounding for upcoming fight analysis, odds comparison, and deep fighter insights.",
+  "requestFramePermissions": []
+}
